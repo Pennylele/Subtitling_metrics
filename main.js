@@ -8,5 +8,5 @@ document.getElementById("ICR").value = base*5*target; /* 5 minutes per min */
 document.getElementById("LQA").value = base*10*target; /* 10 minutes per min */
 document.getElementById("wc").value = base*150; /* 150 words per min */
 document.getElementById("total").value = base*25 + base*15*target
-document.getElementById("totalHour").value = (base*25+base*10*target)/60;
+document.getElementById("totalHour").value = (base*25+base*15*target)/60;
 })
