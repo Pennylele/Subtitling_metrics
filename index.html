@@ -8,14 +8,16 @@
 <h1>Video Length</h1>
 <form>
 <p>The video(s) for subtitling are <input type="number" id="videolength"> minutes long.</p>
+<p>We want to localize them into <input type="number2" id="targetlanguage"> (number) target languages.</p>
 </form>
 <button id="onClick">Start Calculating</button>
-<br>
+<br><br>
 <h1>Estimate</h1>
 <p>Transcription time: <input type="text" id="transcription"> minutes </p>
 <p>SRT creation time: <input type="text" id="SRT"> minutes </p>
 <p>LQA/ICR package creation time: <input type="text" id="ICR"> minutes </p>
-<p>Two rounds of LQA implementation: <input type="text" id="LQA"> minutes </p>
+<p>LQA implementation + post-processing: <input type="text" id="LQA"> minutes </p>
+<p>Estimated words: <input type="text", id="wc"> words (Estimated 150w/min) </p>
 <br>
 <h1>Total estimate:</h1> <input type="text" id="total"> minutes or <input type="text" id="totalHour"> hour(s).
 </body>
